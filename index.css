@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: #e2d6d6;
+}
+.outer-main{
+    position: relative;
+}
+.sign-up-form{
+    background-color: white;
+    position: absolute;
+    height: 385px;
+    width:280px;
+    top: 0;
+    right:5px;
+}
+.inner-2{
+    top: 0px;
+    right: 280px;
+    position: absolute;
+    font-family: arial;
+    color: white;
+    height: 700px;
+    width: 450px;
+    background-color: purple;
+}
+.img1{
+    position: absolute;
+    top:350px;
+   left: 950px; 
+    rotate: 90deg;
+}
+#hed1{
+    padding: 10px;
+}
+.anchor{
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(120, 139, 9);
+}
+
+#para1{
+    font-family: georgia;
+    margin-top: 20px;
+    font-size: x-large;
+    color: aqua;
+
+}
+#para2{
+    text-transform: lowercase;
+    font-family: georgia;
+    margin-top: 20px;
+    font-size:medium;
+    color: aqua;
+
+}
+#para3{
+    font-family: georgia;
+    margin-top: 20px;
+    font-size:medium;
+    color: aqua;
+
+}
+
+.back1{
+    background-color: aqua;
+    top: 385px;
+    right: 5px;
+    position:absolute;
+    height: 315px;
+    width: 400px;
+} 
+
+.inner3{
+    top: 0px; 
+    left: 300px;
+    position: absolute;
+    font-family: arial;
+    color: white;
+    height: 450px;
+    width: 300px;
+    background-color: purple;
+}
+.back2{
+    background-color: aqua;
+    top: 450px;
+    left:300px;
+    position:absolute;
+    height: 350px;
+    width:300px;
+}
+.img2{
+    position: absolute;
+    top: 350px;
+    left:320px;
+    height: 300px;    
+}
+#btn4{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-color: aqua;
+    padding: 10px;
+    background-color: yellowgreen;
+    color:crimson;
+}
+#pre1{
+    padding-top:200px ;
+    font-family: georgia;
+    margin-top: 20px;
+    font-size:medium;
+    color:purple;
+}
+p{
+    margin-left: 15px;
+}
+.inner4{
+    position: absolute;
+    top: 0px;
+    left:5px;
+    font-family: arial;
+    color: white;
+    height: 400px;
+    width: 280px;
+    background-color: purple;
+}
+.back3{
+    background-color: aqua;
+    top: 400px;
+    position:absolute;
+    height: 250px;
+    width:280px;
+}
+#pre2{
+    font-family: georgia;
+    margin-top: 20px;
+    font-size:medium;
+    color:aqua;
+}
+#para4{
+    font-family: georgia;
+    margin-top: 10px;
+    font-size:small;
+    color: aqua;
+
+}
+.img3{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    height: 300px; 
+}
+#input{ 
+    padding-left: 10px;
+    margin-left: 15px;
+    height: 20px;
+    width: 200px;
+    
+}
+#btn1{ 
+    color: rgb(40, 37, 222);
+    background-color: rgb(51, 214, 51);
+    padding: 10px;
+    margin-left: 15px;
+    height: 30px;
+
+}
+#btn2{
+    color: rgb(40, 37, 222);
+    background-color: rgb(51, 214, 51);
+    padding: 10px;
+    margin-left: 15px;
+    height: 30px;
+}
+#h2{
+    padding-left: 10px;
+    color: blueviolet;
+}
+li{
+    text-align: right;
+    list-style-type: none;
+}
+#ch1{
+    margin-left: 15px;
+}
