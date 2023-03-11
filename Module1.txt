@@ -1,0 +1,161 @@
+Q.1 Are the HTML tags and elements the same thing?
+Ans. No Html tags and elements are diffrent things, Tags begin or end an element in source code, whereas elements are part of the DOM, the document model for displaying the page in the browser. An element includes an opening tag with some attributes, enclosed text content, and a closing tag.
+
+Q.2 What are tags and attributes in HTML?
+Ans. In HTML, a tag is used for creating an element using starting and ending tag, where An attribute extends an HTML or XML element, changing its behavior or providing metadata. Attributes contain extra information about the element that won't appear in the content.
+
+Q.3 What are void elements in HTML?
+Ans. A void element is an element in HTML that cannot have any child nodes. Void elements only have a start tag; end tags must not be specified for void elements.For Example <base>,<br>,<col>,<hr>,<img> etc.. these are the void elements.
+
+Q.4 What are HTML Entities? 
+Ans. Some special characters are reserved for use in HTML, meaning that your browser will parse them as HTML code. For example, if you use the less-than (<) sign, the browser interprets any text that follows as a tag. To display these characters as text, replace them with their corresponding character entities, as shown in the following table.
+Character	Entity	Note
+&	&amp;	Interpreted as the beginning of an entity or character reference.
+<	&lt;	Interpreted as the beginning of a tag
+>	&gt;	Interpreted as the ending of a tag
+"	&quot;	Interpreted as the beginning and end of an attribute's value.
+
+Q.5 What are different types of lists in HTML?
+Ans. HTML lists allow web developers to group a set of related items in lists. Three types of lists in html odered list,unordered list and description or data list.
+
+Q.6  What is the ‘class’ attribute in HTML?
+Ans.  To perform certain tasks for elements we can define class name. The class is an attribute which specifies one or more class names for an HTML element.The class attribute can be used on any HTML element.The class global attribute is a space-separated list of the case-sensitive classes of the element. Classes allow CSS and JavaScript to select and access specific elements via the class selectors or functions like the DOM method document.getElementsByClassName.
+
+Q.7 What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? 
+Ans. ID : The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking, scripting, or styling (with CSS).
+CLASS : The class global attribute is a space-separated list of the case-sensitive classes of the element. Classes allow CSS and JavaScript to select and access specific elements via the class selectors or functions like the DOM method document.getElementsByClassName.
+The diffrence is  The class attribute is used to specify one or more class names for an HTML element where id attribute is a unique identifier that is used to specify the document, it can be specifies only one in any element. 
+
+Q.8 What are the various formatting tags in HTML? 
+Ans.  The formarting tags are used to format text. The formatting tags are divided into two groups: physical tags, that are used to style the text (visual appearance of the text) and logical or semantic tags that add semantic value to the text parts. For Example. <h1> to <h6>, <b>,<sup>,<sub>,<i>,<ins>,<small>,<mark>,<del>,<em>,<strong> etc....
+
+Q.9  How is Cell Padding different from Cell Spacing? 
+Ans. Cellpadding: This property specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell edge and the content of the cell.
+Syntax : <table cellpadding="value" >.....</table>
+Cellspacing : This property specifies the space between cells, that is, it defines the whitespace between the edges of the adjacent cells.
+Syntax : <table cellspacing="value" >.....</table>
+The Diffrence is cellpadding specifies the space between the border of a table cell and its contents where cellspacing specifies the space between cells.
+
+Q.10 How can we club two or more rows or columns into a single row or column in an HTML table? 
+Ans. You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data).
+Syntax : <td colspan="2">content</td>. 
+To merge two or more row cells, use the rowspan attribute.
+Syntax : <td rowspan="2">content</td>.
+
+Q.11 What is the difference between a block-level element and an inline element? 
+Ans.  An inline element does not start on a new line and only takes up as much width as necessary. A block-level element always starts on a new line and takes up the full width available. For Example <p> and <div> are block level elements.
+Inline Elements : <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt>
+
+Q.12 How to create a Hyperlink in HTML? 
+Ans. Links are found in nearly all web pages. Links allow users to click their way from page to page.HTML links are hyperlinks.You can click on a link and jump to another document.When you move the mouse over a link, the mouse arrow will turn into a little hand.
+Syntax to Create Hyperlink : <a href="url">link text</a>
+
+Q.13 What is the use of an iframe tag? 
+Ans. iframe in HTML stands for Inline Frame. The ” iframe ” tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and borders. An inline frame is used to embed another document within the current HTML document. The HTML iframe name attribute is used to specify a reference for an <Iframe> element. The name attribute is also used as a reference to the elements in JavaScript. The iframe is basically used to show a webpage inside the current web page. The ‘ src ‘ attribute is used to specify the URL of the document that occupies the iframe.
+Syntax :  <iframe src="URL" title="description"></iframe>
+Attributes value: It contains a single value URL that specifies the URL of the document that is embedded in the iframe. There are two types of URL links which are listed below:
+	Absolute URL: It points to another webpage.
+	Relative URL: It points to other files of the same web page.
+Example: This example illustrates the use of an iframe tag which is used to display a webpage inside the current web page.
+
+Q.14 What is the use of a span tag? Explain with example? 
+Ans. The HTML span element is a generic inline container for inline elements and content. It is used to group elements for styling purposes (by using the class or id attributes), A better way to use it when no other semantic element is available.
+Syntax: <span class="">Some Text</span> 
+Example:
+<!DOCTYPE html>
+<html>
+ 
+<body>
+    <h2>Welcome To GeeksforGeeks</h2>
+     
+ 
+<p>GeeksforGeeks is a
+        <span style="color:red;font-weight:bolder">
+            computer science</span> portal for
+        <span style="background-color: lightgreen;">geeks</span>.
+    </p>
+ 
+ 
+</body>
+ 
+</html>
+
+Q.15 How to insert a picture into a background image of a web page? 
+Ans.There are two methods for setting a background image in an HTML file: 
+	By using background attribute in the tag in HTML.
+	By using Inline or Internal Style Sheet.
+Method 1: By using background attribute in the tag in HTML
+	Syntax:<body background = "image_name.extension"> Note: html5 does not support background attribute in body tag.
+Method 2: By using Inline or Internal Style Sheet, here we have to use the style attribute of HTML and background-image property of CSS.
+	Syntax:<div style = "background-image: url('Image_name.extension');">
+
+Q.16 How are active links different from normal links? 
+Ans.
+	Active Link: Active Links shows that the browser is in the process to load a new resource.  You can do your own custom styling using CSS :active selector. In the above output, notice the active link on right-click of the link.
+
+	Normal Link ( Unvisited Link ) : Example : If you want to create a link to go to “https://www.google.com/“, you can get the normal link through this code. The default color is blue color and underlined but you can apply your own custom styling according to the application’s need.
+The differnce is  normal links default color is blue color and underlined, where  Active Links shows that the browser is in the process to load a new resource . You can do your own custom styling using CSS  for both status.
+
+Q.17 What are the different tags to separate sections of text? 
+Ans. The formarting tags are used to seprate section of text. The formatting tags are divided into two groups: physical tags, that are used to style the text  and logical or semantic tags that add semantic value to the text parts. 
+For Example. <h1> to <h6>,<b>,<sup>,<sub>,<i>,<ins>,<small>,<mark>,<del>,<em>,<strong> etc....
+
+Q.18 What is SVG? 
+Ans. SVG stands for Scalable Vector Graphics. SVG defines vector-based graphics in XML format.
+	<html>
+	<body>
+	<h1>My first SVG</h1>
+	<svg width="100" height="100">
+	<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+	</svg>
+	</body>
+	</html>
+
+Q.19 What is difference between HTML and XHTML? 
+Ans.
+1. HTML stands for Hypertext Markup Language where XHTML stands for Extensible Hypertext Markup Language.
+2. It was developed by Tim Berners-Lee where It was developed by W3C i.e World Wide Web Consortium.
+3. It was developed in 1991 where It was released in 2000.
+4. It is extended from SGML Where It is extended from XML and HTML.
+5. The format is a document file format Where The format is a markup language.
+6. All tags and attributes are not necessarily to be in lower or upper case Where In this, every tag and attribute should be in lower case.
+7. Doctype is not necessary to write at the top Where Doctype is very necessary to write at the top of the file.
+8. It is not necessary to close the tags in the order they are opened Where It is necessary to close the tags in the order they are opened.
+9. While using the attributes it is not necessary to mention quotes.  For e.g. <Geeks>. Where While using the attributes it is mandatory to mention quotes.  For e.g. <Geeks=”GFG”>.
+10. Filename extension used are .html, .htm. Where Filename extension are .xhtml, .xht, .xml.
+ 
+Q.20 What are logical and physical tags in HTML? 
+Ans.
+	Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page. However, both tags differ from each other as suggested by their names.
+	Logical Tags  : Logical Tags are used in HTML to display the text according to the logical styles. Following are the Logical tags commonly used in HTML.
+
+Logical Tags:
+Tag	Description
+<abbr>	Defines an abbreviation
+<acronym> Defines an acronym
+<address>	Defines an address element
+<cite>	Defines citation
+<code>	Defines computer code text
+<blockquote> Defines a long quotation
+<del>	Defines text
+<dfn>	Defines a definition term
+<ins>	Defines inserted text
+<kbd>	Defines keyboard text
+<pre>	Defines preformatted text
+<q>	Defines short quotation
+<samp>	Defines sample computer code
+<strong>	Defines strong text
+<var>	Defines a variable
+
+Physical Tags : Physical Tags are used in HTML to provide actual physical formatting to the text. Following are the Physical tags commonly used in HTML.
+Physical Tags:
+Tag	Description
+<b>	Defines bold text
+<big>	Defines big text
+<i>	Defines italic text
+<small>	Defines small text
+<sup>	Defines superscripted text
+<sub>	Defines subscripted text
+<tt>	Defines teletype text
+<u>	Deprecated. Use styles instead
+
